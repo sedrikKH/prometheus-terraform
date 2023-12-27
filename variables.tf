@@ -1,6 +1,6 @@
 variable "GOOGLE_REGION" {
   type        = string
-    description = "The Google Cloud region in which to create the GKE cluster."
+  description = "The Google Cloud region in which to create the GKE cluster."
 }
 
 variable "GOOGLE_PROJECT" {
