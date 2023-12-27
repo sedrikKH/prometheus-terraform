@@ -17,3 +17,8 @@ variable "GKE_MACHINE_TYPE" {
   type        = string
    description = "Machine type"
 }
+
+variable "GKE_CLUSTER_NAME" {
+  type        = string
+  description = "GKE cluster name"
+}
