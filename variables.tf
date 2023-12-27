@@ -12,3 +12,8 @@ variable "GKE_NUM_NODES" {
   type        = number
   description = "The number of nodes to create in the GKE cluster."
 }
+
+variable "GKE_MACHINE_TYPE" {
+  type        = string
+   description = "Machine type"
+}
