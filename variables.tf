@@ -22,3 +22,26 @@ variable "GKE_CLUSTER_NAME" {
   type        = string
   description = "GKE cluster name"
 }
+
+variable "GITHUB_OWNER" {
+  type = string
+  description = "Github owner repo to use"
+}
+
+variable "GITHUB_TOKEN" {
+  type = string
+  description = "Github personal access token"
+}
+
+variable "FLUX_GITHUB_REPO" {
+  type = string
+  default = "flux-gitops"
+  description = "Flux Gitops repo"
+}
+
+variable "FLUX_GITHUB_TARGET_PATH" {
+  type = string
+  default = "clusters"
+  description = "Flux manifest subdirectory"
+  
+}
