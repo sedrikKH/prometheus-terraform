@@ -1,5 +1,5 @@
 ---
-apiVersion: helm.toolkit.fluxcd.io/v2beta2
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: kbot
@@ -13,3 +13,4 @@ spec:
         kind: GitRepository
         name: kbot
   interval: 1m0s
+#test
