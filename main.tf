@@ -1,6 +1,6 @@
 module "github_repository" {
-  #source = "github.com/den-vasyliev/tf-github-repository"
-  source = "./modules/github_repository"
+  source = "github.com/den-vasyliev/tf-github-repository"
+  #source = "./modules/github_repository"
   github_owner = var.GITHUB_OWNER
   github_token = var.GITHUB_TOKEN
   repository_name = var.FLUX_GITHUB_REPO
