@@ -5,21 +5,25 @@ variable "GOOGLE_REGION" {
 
 variable "GOOGLE_PROJECT" {
   type        = string
+  default = "us-central1-c"
   description = "The Google Cloud project in which to create the GKE cluster."
 }
 
 variable "GKE_NUM_NODES" {
   type        = number
+  default = 2
   description = "The number of nodes to create in the GKE cluster."
 }
 
 variable "GKE_MACHINE_TYPE" {
   type        = string
-   description = "Machine type"
+  default = "g1-small"
+  description = "Machine type"
 }
 
 variable "GKE_CLUSTER_NAME" {
   type        = string
+  default = "test"
   description = "GKE cluster name"
 }
 
