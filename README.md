@@ -58,7 +58,7 @@ terraform {
 
 ```
 
-<span style="color:red;"> <b> Attention - the bucket must be created in advance!!! </b> </span>
+## <span style="color:red"> <b> Attention - the bucket must be created in advance!!! </b> </span>
 
 
 ## Let's start building the infrastructure
