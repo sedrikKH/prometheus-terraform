@@ -48,6 +48,8 @@ Create the file vars.auto.tfvars in the project directory and fill it with the n
 Since state file contains sensitive data let's specify terraform to save state file in a safe place - gcs bucket
 Add into the file terraform.tf next code
 
+***Attention - the bucket must be created in advance!!!***
+
 ```
 terraform {
   backend "gcs" {
@@ -58,7 +60,6 @@ terraform {
 
 ```
 
-## <span style="color:red"> <b> Attention - the bucket must be created in advance!!! </b> </span>
 
 
 ## Let's start building the infrastructure
